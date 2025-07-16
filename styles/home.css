@@ -19,6 +19,7 @@
 
 .home__img {
     width: 100%;
+    max-width: 950px;
     height: 535px;
     object-fit: cover;
 }
