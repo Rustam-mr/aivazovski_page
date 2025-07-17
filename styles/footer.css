@@ -10,25 +10,24 @@
 }
 
 .contacts__btn {
-    margin: 75px 0 40px 0;
-    padding: 0;
+    display: block;
+    margin: 75px auto 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 210px;
     height: 70px;
-    border: none;
     border-radius: 21px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--bg-main);
     background-color: var(--font-color-black);
-    cursor: pointer;
 }
 
 .contacts__btn:hover {
     opacity: 0.8;
 }
 
-.btn__link {
-    font-size: 24px;
-    font-weight: 500;
-    color: var(--bg-main);
-}
 
 .socials {
     display: flex;
